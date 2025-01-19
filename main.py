@@ -24,7 +24,7 @@ async def scrape_with_playwright(url: str, tags, **kwargs):
 
     extracted_list = []
 
-    for i in range(0, len(html_content) - 10000, token_limit):
+    for i in range(0, len(html_content), token_limit):
         html_content_fits_context_window_llm = html_content[i: i + token_limit]
 
         extracted_content = extract(**kwargs,
