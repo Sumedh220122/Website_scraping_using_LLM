@@ -11,16 +11,19 @@ The Description of the various .py files are as follows:
 
 The application is deployed on a fast-api server.
 
-The following command is used to run the server in the command-prompt:
+##Usage
+
+1. Install requirements by running pip install -r requirements.txt
+2. Install playwright specific browsers by running playwright install in cmd
+3. The following command is used to run the server in the command-prompt:
    ```
    uvicorn main:app --host 127.0.0.1 --port 5049 --log-level debug
    ```
-
-Paste the following url in the web-browser to access the appplication:
+4. Paste the following url in the web-browser to access the appplication:
   ```
    http://localhost:8000/api/reviews/?url=?
   ```
-In place of ? paste the url of the website to be scraped. 
+   In place of ? paste the url of the website to be scraped. 
 
  
 
