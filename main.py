@@ -1,9 +1,9 @@
 import asyncio
 import pprint
 
-from ai_extractor import extract
-from schemas import SchemaReviews
-from scrape import ascrape_playwright
+from llm_extractor import extract
+from schema import SchemaReviews
+from scraping import ascrape_playwright
 from fastapi import FastAPI, Query
 import uvicorn
 
