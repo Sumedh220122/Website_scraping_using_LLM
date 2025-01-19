@@ -23,7 +23,13 @@ The application is deployed on a fast-api server.
    ```
    http://localhost:5049/api/reviews/?url=?
    ```
-   In place of ? paste the url of the website to be scraped. 
+   In place of ? paste the url of the website to be scraped.
+
+# Examples
+![image](https://github.com/user-attachments/assets/9ab5bf8f-fc31-4440-9a0f-a3d5d2492829)
+
+Customer review extraction for the website - https://2717recovery.com/products/recovery-cream
+
 
  
 
