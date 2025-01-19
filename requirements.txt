@@ -4,3 +4,4 @@ ppprint
 fastapi
 uvicorn
 playwright
+beautifulsoup4
