@@ -1,0 +1,6 @@
+langchain-community
+langchain-cohere
+ppprint
+fastapi
+uvicorn
+playwright
